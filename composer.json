@@ -1,0 +1,33 @@
+{
+    "name": "topthink/think-debugbar",
+    "type": "library",
+    "description": "",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yunwuxin",
+            "email": "448901948@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "topthink/framework": "^6.0",
+        "maximebf/debugbar": "^1.15"
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "think\\debugbar\\Service"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\debugbar\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
