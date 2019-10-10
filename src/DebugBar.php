@@ -18,7 +18,7 @@ use think\event\LogWrite;
 use think\Response;
 use think\response\Redirect;
 use think\Session;
-use think\swoole\App;
+use think\App;
 
 class DebugBar extends \DebugBar\DebugBar
 {
